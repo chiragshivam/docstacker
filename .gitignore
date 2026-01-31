@@ -1,0 +1,108 @@
+# =========================
+# Backend (Java/Spring Boot)
+# =========================
+
+# Compiled class files
+backend/target/
+*.class
+
+# Log files
+*.log
+
+# Package files
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Maven
+backend/.mvn/
+backend/mvnw
+backend/mvnw.cmd
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.project
+.classpath
+.settings/
+*.swp
+*.swo
+
+# =========================
+# Frontend (Node.js/Next.js)
+# =========================
+
+# Dependencies
+frontend/node_modules/
+node_modules/
+
+# Next.js build
+frontend/.next/
+frontend/out/
+
+# Production
+frontend/build/
+
+# Debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Env files (keep examples)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+frontend/.env.local
+
+# =========================
+# General
+# =========================
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor directories and files
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# =========================
+# Project Specific
+# =========================
+
+# Berry template (reference only, not part of the app)
+berry-template-full-version/
+
+# Test output files
+test-failure.png
+
+# Generated documents (keep test files)
+*.pdf
+!frontend/public/test-files/*.pdf
+!Testing documents/*.pdf
+
+# Cursor IDE
+.cursor/
