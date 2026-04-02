@@ -1,0 +1,27 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: docstacker-api
+  servlet:
+    multipart:
+      max-file-size: 50MB
+      max-request-size: 100MB
+
+# Document storage configuration
+docstacker:
+  storage:
+    # Local filesystem storage for development
+    base-path: ${user.home}/.docstacker/storage
+    temp-path: ${user.home}/.docstacker/temp
+  
+  # LibreOffice path for DOCX to PDF conversion
+  libreoffice:
+    path: /usr/bin/soffice
+    timeout-seconds: 60
+
+logging:
+  level:
+    com.docstacker: DEBUG
+    org.apache.pdfbox: WARN
